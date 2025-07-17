@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/"> Aman Shaikh</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/aman-shaikh-sde" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/aman-shaikh-sde/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:aman.shaikh.sde@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+<!-- SECTION 1: Hero -->
+<section class="hero-section">
+  <div class="text">
+    <h2>Hi, I'm Aman 👋</h2>
+    <p>
+      I'm a passionate <strong>Java Backend Developer</strong> with hands-on experience in building scalable web applications using <strong>Spring Boot, Hibernate, and REST APIs</strong>. 
+      I'm also well-versed in <strong>AWS DevOps practices</strong> like CI/CD pipelines and cloud deployments. I love solving real-world problems through clean code, teamwork, and constant learning.
+    </p>
+
+    <div class="links">
+      <a href="#skills">
+        <i class="fa-solid fa-code"></i>
+        <span>Skills</span>
+      </a>
+      
+      <a href="#projects">
+        <i class="fa-solid fa-diagram-project"></i>
+        <span>Projects</span>
+      </a>
+
+      <a href="#internship">
+        <i class="fa-solid fa-briefcase"></i>
+        <span>Internships</span>
+      </a>
+      
+      <a href="#contact">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Contact</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="headshot">
+    <img src="images/hero-headshot.webp" alt="Aman Shaikh headshot">
+  </div>
+</section>
+
+
+<!-- SECTION 2: Skills -->
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+  <table class="skills-table">
+    <tr><th>Programming Languages</th><td>Java, C, C++</td></tr>
+    <tr><th>Frontend Technologies</th><td>HTML, CSS, JavaScript</td></tr>
+    <tr><th>Database</th><td>SQL (CRUD, Joins), MySQL</td></tr>
+    <tr><th>Developer Tools</th><td>Git, VS Code, Visual Studio, IntelliJ, Postman</td></tr>
+    <tr><th>Soft Skills</th><td>Quick Learner, Data-driven decision making, Collaboration and teamwork</td></tr>
+    <tr><th>Framework</th><td>Spring, Spring Boot, Spring ORM, Hibernate, JWT, MVC Architecture</td></tr>
+    <tr><th>Core Subject</th><td>Data Structure & Algo, Operating System, Networking, Database, OOPs</td></tr>
+  </table>
+</section>
+
+<!-- SECTION 3: Projects -->
+<!-- SECTION 3: Projects -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Payment integration System</h3>
+    <p>Spring Boot-based web application for managing student data with CRUD operations and MySQL integration.</p>
+  </div>
+  <div class="project">
+    <h3>Blogging Backend Application</h3>
+    <p>Created a RESTful backend platform using Spring Boot, Hibernate, and JWT for user authentication and blog management.</p>
+  </div>
+</section>
+
+<!-- SECTION 4: Internships & Training -->
+<section id="internship" class="internship-section">
+  <h2>Internships & Trainings</h2>
+  <div class="item">
+    <h3>Spring Security Intern</h3>
+    <p>Developed secure HmacSHA256-based token authentication for payment gateway integrations using Spring Security and custom filters.</p>
+  </div>
+  <div class="item">
+    <h3>AWS DevOps Training</h3>
+    <p>Implemented CI/CD pipeline using AWS CodePipeline, CodeBuild, CodeDeploy, EC2, and CloudWatch to automate deployment processes.</p>
+  </div>
+</section>
+
+
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
